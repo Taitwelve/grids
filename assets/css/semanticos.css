@@ -38,7 +38,7 @@ ul {
     }
 }
 
-.header {
+.header, .footer {
     width: 100%;
     height: 10rem;
     background-color: #333;
@@ -105,6 +105,22 @@ main {
 
         aside li {
             margin-bottom: 1rem;
+        }
+    }
+}
+
+.footer {
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: #666;
+
+        &:hover {
+            color: hsl(320, 94%, 49%);
+            text-decoration: underline;
         }
     }
 }
