@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: dotted;
+    color: #999;
+    font-weight: 900;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    border: 1px solid #333;
+}

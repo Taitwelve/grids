@@ -134,4 +134,16 @@ a {
 
 
     }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: #666;
+
+        &:hover {
+            color: hsl(320, 94%, 49%);
+            text-decoration: underline;
+        }
+    }
 }
