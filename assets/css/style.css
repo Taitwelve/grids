@@ -117,7 +117,21 @@ a {
         .card6 {
             grid-area: card6;
         }
-    }
+    }  
+}
 
-    
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "copyright";
+
+    .footer-content {
+        grid-area: copyright;
+
+
+    }
 }
