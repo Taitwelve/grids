@@ -28,6 +28,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo nav";
+    color: hsl(320, 94%, 49%);
 
     .logo {
         grid-area: logo;
